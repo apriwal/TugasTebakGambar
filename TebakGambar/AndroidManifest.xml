@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tugas.tebakgambar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.tugas.tebakgambar.RomaMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tugas.tebakgambar.BandarActivity"
+            android:label="@string/title_activity_bandar" >
+        </activity>
+        <activity
+            android:name="com.tugas.tebakgambar.JamuActivity"
+            android:label="@string/title_activity_jamu" >
+        </activity>
+        <activity
+            android:name="com.tugas.tebakgambar.CabeActivity"
+            android:label="@string/title_activity_cabe" >
+        </activity>
+        <activity
+            android:name="com.tugas.tebakgambar.SayangActivity"
+            android:label="@string/title_activity_sayang" >
+        </activity>
+        <activity
+            android:name="com.tugas.tebakgambar.AsbakActivity"
+            android:label="@string/title_activity_asbak" >
+        </activity>
+        <activity
+            android:name="com.tugas.tebakgambar.GudangActivity"
+            android:label="@string/title_activity_gudang" >
+        </activity>
+        <activity
+            android:name="com.tugas.tebakgambar.KerasActivity"
+            android:label="@string/title_activity_keras" >
+        </activity>
+        <activity
+            android:name="com.tugas.tebakgambar.KualitasActivity"
+            android:label="@string/title_activity_kualitas" >
+        </activity>
+        <activity
+            android:name="com.tugas.tebakgambar.KopiActivity"
+            android:label="@string/title_activity_kopi" >
+        </activity>
+        <activity
+            android:name="com.tugas.tebakgambar.SelamatActivity"
+            android:label="@string/title_activity_selamat" >
+        </activity>
+    </application>
+
+</manifest>

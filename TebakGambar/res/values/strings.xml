@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tebak Gambar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bandar">Level 1</string>
+    <string name="title_activity_jamu">Lavel 1</string>
+    <string name="title_activity_cabe">Lavel 1</string>
+    <string name="title_activity_sayang">Lavel 1</string>
+    <string name="title_activity_asbak">Level 1</string>
+    <string name="title_activity_gudang">Level 1</string>
+    <string name="title_activity_keras">Level 1</string>
+    <string name="title_activity_kualitas">Level 1</string>
+    <string name="title_activity_kopi">Level 1</string>
+    <string name="title_activity_selamat">SelamatActivity</string>
+
+</resources>
